@@ -147,7 +147,7 @@ kus serveeritakse meile jälle mitte-kokkupakitud koodi.
     > Kui me kasutame -D flagi, siis lisatakse need `devDependencies` sektsiooni `package.json` failis.`.
 
 2. Konfigureerime tailwindi enda projekti
-    > Loome `vite.config.js` faili, mis sisaldab konfiguratsiooni.
+    > Loome juurkausta `vite.config.js` faili, mis sisaldab konfiguratsiooni.
 
 ```typescript
 import { defineConfig } from 'vite';

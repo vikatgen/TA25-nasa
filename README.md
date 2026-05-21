@@ -252,7 +252,7 @@ Selleks, et ESLint parandaks koodi automaatselt salvestamisel, lisage projekti j
 ```json
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": ["javascript", "javascriptreact"]
 }
@@ -384,7 +384,7 @@ Loo kaust `.vscode` ja selles fail `settings.json` järgmise sisuga:
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": ["javascript", "javascriptreact"]
 }

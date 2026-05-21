@@ -3,7 +3,8 @@
 > 2. Loo uus branch/haru nimega `feature/code-toolbox`
 > 3. Kontrolli, et sul oleks vähemalt NodeJS versioon 22 käsuga `node -v`
 >    1. Kui NodeJS on puudu üldse, kasutame NVM tööriista, et seda installeerida [NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-3-installing-node-using-the-node-version-manager)
-> 4. Alusta järgnevate sammude täitmist, et luua moderne arenduskeskkond.
+> 4. Lisa koodieditoris .env fail, kuhu lisame salajase võtme nimega "VITE_NASA_API_KEY=". Oma NASA API võtme saate kas meilist või eelmisest projektist.
+> 5. Alusta järgnevate sammude täitmist, et luua moderne arenduskeskkond.
 
 
 # Moderne veebirakenduste arendmine

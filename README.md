@@ -390,4 +390,6 @@ Loo kaust `.vscode` ja selles fail `settings.json` järgmise sisuga:
 }
 ```
 
+> Kui `settings.json` annab errori jooned, siis tasub proovida tõmmata extentsion nimega `Prettier Code Formatter`.
+
 > Hea teada: `npm run format` käsu võib enne giti commitimist alati käivitada, et olla kindel, et kogu kood on ühtses stiilis.

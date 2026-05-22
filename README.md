@@ -370,11 +370,17 @@ npm install -D eslint-config-prettier
 ```javascript
 import prettierConfig from 'eslint-config-prettier';
 
-export default [
-    // ... sinu olemasolevad ESLinti seadistused ...
-],
-prettierConfig, // peab olema alati viimane!
-;
+export default defineConfig([
+    {
+        files: ['**/*.{js,mjs,cjs}'],
+        plugins: { js },
+        extends: ['js/recommended'],
+        languageOptions: {
+            globals: globals.browser,
+        },
+    },
+    prettierConfig,
+]);
 ```
 
 > **NB!** `eslint-config-prettier` peab olema seadistuste massiivi viimane element. Vastasel juhul ei suuda ta ESLinti vormindusreegleid üle kirjutada.

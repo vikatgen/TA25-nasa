@@ -204,12 +204,17 @@ npx eslint --init
 
 See käsk küsib sinult mitmeid küsimusi. Siin on soovituslikud valikud:
 
-- **How would you like to use ESLint?** To check syntax, find problems, and enforce code style
-- **What type of modules does your project use?** JavaScript modules (import/export)
-- **Which framework does your project use?** React / Vue / None (valige vastavalt projektile)
-- **Does your project use TypeScript?** No / Yes (valige vastavalt projektile)
-- **Where does your code run?** BrowserHow would you like to define a style for your project? Use a popular style guide (nt Standard või Airbnb)
-- **What format do you want your config file to be in?** JSON või JavaScript
+ What do you want to lint? · javascript
+✔ How would you like to use ESLint? · problems
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · none
+✔ Does your project use TypeScript? · No / Yes
+✔ Where does your code run? · browser
+ℹ The config that you've selected requires the following dependencies:
+
+eslint, @eslint/js, globals
+✔ Would you like to install them now? · No / Yes
+✔ Which package manager do you want to use? · npm
 
 3. Konfigureeri Vite (valikuline, kuid soovitatav)
 
